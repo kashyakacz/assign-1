@@ -1,3 +1,40 @@
+/*A fuction to change website to dark theme with button text change*/
+function dark() {
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+    if (document.querySelector('#darkbtn').textContent == "Dark Theme") {
+        document.querySelector('#darkbtn').textContent = "Light Theme"
+    }
+    else {
+         document.querySelector('#darkbtn').textContent = "Dark Theme"
+}
+        
+}
+/*An additional function for dark theme to change text colour*/
+function dark1() {
+     if(document.getElementById("darkbtn").style.color =="#faf4ed"){
+        document.getElementById("item4").style.color="#191724"
+        document.getElementById("item2").style.color="#191724"
+        document.getElementById("item3").style.color="#191724"
+        document.getElementById("item1").style.color="#191724"
+        document.getElementById("item1.1").style.color="#191724"
+        document.getElementById("darkbtn").style.color="#191724" 
+     }
+     /*Code is corrrect however does not want to change text color back to #191724 when clicking Light Theme again. */
+     else {
+        document.getElementById("item4").style.color="#faf4ed"
+        document.getElementById("item2").style.color="#faf4ed"
+        document.getElementById("item3").style.color="#faf4ed"
+        document.getElementById("item1").style.color="#faf4ed"
+        document.getElementById("item1.1").style.color="#faf4ed"
+        document.getElementById("darkbtn").style.color="#faf4ed" 
+  }
+
+
+     }
+
+ 
+
 /* A function to add and save a new note to an array:
 - Read the text from the textarea (google how to do this)
 - string variables
