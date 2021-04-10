@@ -1,5 +1,7 @@
+
+
 @media screen and (max-width:1200px){
-    
+
 }
 
 body {
@@ -90,7 +92,7 @@ a {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #191724;
-}
+    }
 
 button {
     border: none;
@@ -98,6 +100,7 @@ button {
     color:#191724;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .button-d {
     color: #eb6f92;
@@ -109,5 +112,11 @@ textarea{
     color: #9893a5;
     font-family: 'Montserrat', sans-serif;
 }
+
+.dark-mode {
+    background-color:#191724;    
+}
+
+
 
 
