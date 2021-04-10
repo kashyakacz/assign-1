@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="JS/app.js"></script>
     <title>Note Taking</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
-
-    <div class="grid-container">
-        <div class="item1"><a href="" style="text-decoration: none;">About</a> &nbsp; &nbsp;<a href=""
-                style="text-decoration: none;">Docs </a></div>
+     <div class="grid-container">
+        <div class="item1"> 
+            <button id ="darkbtn" onclick="dark(),dark1()">Dark Theme</button> &nbsp; &nbsp;
+            <a href="" style="text-decoration: none;" id =item1>About</a> &nbsp; &nbsp;
+            <a href="" style="text-decoration: none;" id =item1.1>Docs </a></div>
         <div class="item2">
-            <button type="button">>></button>
+            <button type="button" id = item2>>></button>
         </div>
         <div class="item3">
-            <button onclick="window.location.href='note.html';">+ Create a new note</button>
+            <button onclick="window.location.href='note.html';" id =item3>+ Create a new note</button>
         </div>
-        <div class="item4">Created by Kashya Kaczkowska</div>
+        <div class="item4" id = item4>Created by Kashya Kaczkowska</div>
 
     </div>
 
