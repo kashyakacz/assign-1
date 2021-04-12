@@ -19,6 +19,12 @@ function dark1() {
         document.getElementById("item1").style.color="#191724"
         document.getElementById("item1.1").style.color="#191724"
         document.getElementById("darkbtn").style.color="#191724" 
+        document.getElementById("item-a").style.color="#191724" 
+        document.getElementById("item-a1").style.color="#191724" 
+        document.getElementById("item-b").style.color="#191724" 
+        document.getElementById("item-c").style.color="#191724" 
+        
+        
      }
      /*Code is corrrect however does not want to change text color back to #191724 when clicking Light Theme again. */
      else {
@@ -28,6 +34,10 @@ function dark1() {
         document.getElementById("item1").style.color="#faf4ed"
         document.getElementById("item1.1").style.color="#faf4ed"
         document.getElementById("darkbtn").style.color="#faf4ed" 
+        document.getElementById("item-a").style.color="#faf4ed" 
+        document.getElementById("item-a1").style.color="#faf4ed" 
+        document.getElementById("item-b").style.color="#faf4ed" 
+        document.getElementById("item-c").style.color="#faf4ed" 
   }
 
 
