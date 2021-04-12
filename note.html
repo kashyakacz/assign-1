@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="JS/app.js"></script>
     <title>Note Taking</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
@@ -22,15 +23,17 @@
                     <li>note two</li>
                 </ol>
             </div>
-            <div class="item-a"><a href="" style="text-decoration: none;">About</a> &nbsp; &nbsp;<a href=""
-                    style="text-decoration: none;">Docs </a></div>
+            <div class="item-a">
+                <button id ="darkbtn" onclick="dark(),dark1()">Dark Theme</button> &nbsp; &nbsp;
+                <a href="" style="text-decoration: none;" id = item-a>About</a> &nbsp; &nbsp;
+                <a href="" style="text-decoration: none;" id = item-a1>Docs </a></div>
             <div class="item-b">
                 <button type="button">+</button>
                 <textarea id="notes" name=notes rows="20" cols="90">your note here</textarea>
-                <button type="button" onclick="arr()">Save</button>
+                <button type="button" onclick="arr()" id = item-b>Save</button>
                 <button class="button-d">Delete</button>
             </div>
-            <div class="item-c">Created by Kashya Kaczkowska</div>
+            <div class="item-c" id = item-c>Created by Kashya Kaczkowska</div>
 
         </div>
     </body>
