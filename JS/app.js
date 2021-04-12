@@ -33,6 +33,14 @@ function dark1() {
 
      }
 
+ /*A function to store contents into an array*/
+ function arr() {
+     let myArray = document.getElementById('notes').value
+     for(let i=0; i<myArray.length; i++) {
+         myArray[i] = +myArray[i];
+     }
+ }    
+
  
 
 /* A function to add and save a new note to an array:
